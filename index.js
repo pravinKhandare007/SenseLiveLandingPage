@@ -20,13 +20,6 @@ function myFunction() {
     }
 };
 
-
-// sliderController.onclick = function(){
-//     sliderFunction();
-// }
-
-
-// below code is for slider functionality
 let slider = document.getElementById("slider");
 slider.oninput = function () {
     myFunction2();
