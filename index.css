@@ -8,9 +8,17 @@
   --var-width: 100%;
 }
 
+@font-face{
+  font-family: "Roboto";
+  font-weight: 400;
+  src: url('./fonts/roboto-regular-webfont.woff2') format("woff2");
+  src: url('./fonts/roboto-regular-webfont.woff') format("woff");
+}
+
 body {
   margin: auto;
   margin-bottom: 300px;
+  font-family: 'Roboto';
 }
 
 header {
