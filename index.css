@@ -151,24 +151,26 @@ nav li a:hover {
   margin-left: 2%;
 }
 
-#content-block-1:before {
+/* #content-block-1:before {
   content: ' ';
   display: block;
   position: absolute;
   padding-top: 10px;
   width: 100%;
   height: 100%;
-  opacity: 0.2;
+  opacity: 1;
   background-image: url('./assets/6.jpg');
   background-repeat: no-repeat;
   background-size: 100%;
-}
+} */
 
 #content-block-1 {
+  /* position: relative; */
   text-align: center;
   width: 100%;
-  height: 700px;
+  height: 500px;
   background-color: rgb(0, 0, 40);
+  background-image: url("./assets/6.jpg");
   /* background-color: rgb(73, 72, 72); */
 }
 
@@ -177,10 +179,12 @@ nav li a:hover {
   font-size: 4em;
   position: relative;
   margin: 0px;
-  padding-top: 160px;
+  padding-top: 100px;
 }
 
 #content-block-1>button {
+  color: white;
+  position: absolute;
   border-style: none;
   border-radius: 50px;
   cursor: pointer;
@@ -189,8 +193,14 @@ nav li a:hover {
   margin-top: 50px;
   background-color: var(--bg-btn-color);
   font-weight: bold;
+  left: 45%;
 }
 
+#strip-below-1{
+  width: 100%;
+  height: 40px;
+  background-color: #0ACF83;
+}
 #content-block-2 {
   /* text-align: center; */
   position: relative;
@@ -210,7 +220,7 @@ nav li a:hover {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-image: url("./assets/sec-2-backgroung.jpg");
+  background-image: url("./assets/landscape\ behind.png");
   background-repeat: no-repeat;
   background-size: 100% 850px;
   opacity: 0.5;
@@ -233,26 +243,34 @@ nav li a:hover {
   left: 40%;
 }
 
-#p-container
 
-#content-block-2 button {
+#content-block-2-button{
+  list-style-type: none;
+  border-radius: 50px;
+  text-decoration-style: none;
+  background-color: var(--bg-btn-color);
+  width: 190px;
+  height: 50px;
+  color: white;
+}
+/* #content-block-2 >button {
   list-style-type: none;
   border-radius: 50px;
   background-color: var(--bg-btn-color);
   width: 190px;
   height: 50px;
-}
+} */
 
 #content-block-3 {
   text-align: center;
   position: relative;
   width: 100%;
   height: 650px;
-  background-color: #CEFCEB;
+  background-color: #A3EAA2;
 }
 
 #content-block-3>h3 {
-  background-color: #CEFCEB;
+  background-color: #A3EAA2;
   text-align: center;
   padding-top: 20px;
   margin: 0px;
@@ -268,7 +286,7 @@ nav li a:hover {
   justify-items: center;
 
   height: 485px;
-  background-color: #CEFCEB;
+  background-color: #A3EAA2;
   top: 13%;
   left: 25%;
 
@@ -517,13 +535,14 @@ footer {
 
 #slider-section {
   width: 100%;
-  height: 800px;
+  height: 900px;
   text-align: center;
 }
 
 /* this is for heading color */
 #slider-section h1{
   color: #37BF6D;
+  text-align: center;
 }
 
 /* changing color of all h1  */
@@ -533,8 +552,7 @@ h1{
 .container {
   position: relative;
   width: 900px;
-  height: 600px;
-  border: 2px solid rgb(0, 0, 0);
+  height: 700px;
 
   .img {
     position: absolute;
@@ -546,11 +564,11 @@ h1{
   }
 
   .background-img {
-    background-image: url('./assets/after44.png');
+    background-image: url('./assets/afterfinal.png');
   }
 
   .foreground-img {
-    background-image: url('./assets/before44.png');
+    background-image: url('./assets/beforedinal2.png');
     width: 50%;
   }
 }
