@@ -20,13 +20,21 @@ function myFunction() {
     }
 };
 
-let slider = document.getElementById("slider");
-slider.oninput = function () {
-    myFunction2();
-}
-let fore = document.getElementById("fore")
-function myFunction2() {
-    fore.style.width = `${slider.value}%`
-    console.log("kya hora");
-    console.log(slider.value);
-};
+
+let sliderContainer = document.getElementById("slider-container");
+let slider = document.getElementById("visual-slider");
+sliderContainer.addEventListener("mousemove",function(event) {
+    var x = event.clientX - sliderContainer.offsetLeft;
+    let fore = document.getElementById("fore");
+    fore.style.width = `${x}px`;
+
+    slider.style.left = `${x}px`;
+});
+
+// sliderContainer.addEventListener("click",function(event) {
+//     var x = event.clientX - sliderContainer.offsetLeft;
+//     let fore = document.getElementById("fore");
+//     fore.style.width = `${x}px`;
+
+//     slider.style.left = `${x}px`;
+// });
