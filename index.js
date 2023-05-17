@@ -10,7 +10,6 @@ let contentContainer = document.getElementById("content-container");
 
 function myFunction() {
     if (window.pageYOffset >= bottomNavbarTopPosition) {
-        console.log("truur")
         contentContainer.classList.add("content");
         bottomNavbar.classList.add("sticky");
     }
@@ -22,13 +21,11 @@ function myFunction() {
 
 
 let sliderContainer = document.getElementById("slider-container");
-let slider = document.getElementById("visual-slider");
+
 sliderContainer.addEventListener("mousemove",function(event) {
     var x = event.clientX - sliderContainer.offsetLeft;
     let fore = document.getElementById("fore");
     fore.style.width = `${x}px`;
-
-    slider.style.left = `${x}px`;
 });
 
 // sliderContainer.addEventListener("click",function(event) {
