@@ -48,7 +48,8 @@ body {
 }
 
 .bottom-navbar{
-  position: relative;;
+  position: relative;
+  z-index: 1;
 }
 .bottom-navbar > ul {
   margin-top: 42px;
@@ -56,7 +57,6 @@ body {
 
 .bottom-navbar > ul li {
   padding-right: 20px;
-  color: #000000;
 }
 
 nav ul {
@@ -73,29 +73,47 @@ nav > li {
 
 nav li {
   display: inline-block;
+  margin-right: 15px;
+  position: relative;
+}
+
+nav li b {
+  color:  white;
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
 }
 
 
 nav li a {
   color: #000000;
   text-decoration: none;
+  font-size: 20px;
 }
 
 nav li a:hover {
-  /* background-color: #555; */
+  /* color: rgb(63, 214, 63); */
+  color: #333;
   text-decoration: underline;
 }
 
+nav li ul{
+  width:300px;
+}
+
 .dropdown-menu {
-  display: none;
-  position: absolute;
-  background-color: #333;
-  top: 100px;
-  padding: 10px;
+  display: none ;
+    position: absolute ;
+    background-color: white;
+    text-align: center;
+    line-height: 30px;
+    padding: 300px;
+    
 }
 
 .dropdown:hover .dropdown-menu {
   display: block;
+  padding: 30px;  
 }
 
 .brand{
@@ -299,14 +317,14 @@ h1{
   position: relative;
   width: 100%;
   height: 650px;
-  background-color: #A3EAA2;
 }
 
 #content-block-3>h3 {
-  background-color: #A3EAA2;
   text-align: center;
   padding-top: 20px;
   margin: 0px;
+  color: #37BF6D;
+  font-size: x-large;
 }
 
 .grid-layout {
@@ -315,14 +333,10 @@ h1{
   grid-template-columns: 230px 230px 230px;
   grid-template-rows: 230px 230px;
   grid-gap: 20px 20px;
-  /* align-items: start; */
   justify-items: center;
-
   height: 485px;
-  background-color: #A3EAA2;
   top: 13%;
   left: 25%;
-
 }
 
 .item {
@@ -443,11 +457,13 @@ h2 {
   text-decoration: none;
   display: block;
   width: 150px;
-  height: 30px;
+  height: 50px;
   border-radius: 50px;
   top: 85%;
   margin-left: 3%;
   cursor: pointer;
+  color: #fff;
+  border: none;
 }
 
 .news-blog div img {
@@ -487,13 +503,124 @@ h2 {
   text-decoration: none;
   display: block;
   width: 150px;
-  height: 30px;
+  height: 50px;
   border-radius: 50px;
   top: 85%;
   cursor: pointer;
+  border: none;
+  color: #fff;
 }
 
 .news-releases div h3 {
   margin: 0%;
 }
 
+.aboutus {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.column1{
+  flex: 1;
+  padding: 10px;
+  /* background-color: whitesmoke */
+}
+
+.column1 p button{
+  list-style: none;
+  border: none;
+  color: #fff;
+  height: 50px;
+  width: 100px;
+}
+.column1 p button a{
+  list-style-type: none;
+  text-decoration: none;
+}
+.gap {
+  width: 10px;
+}
+
+.container-2 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  justify-content: center;
+  margin: 0 auto;
+  /* height: 300px; */
+}
+
+.content-2 {
+  height: 150px;
+  font-size: 18px;
+}
+
+.column {
+  flex: 1;
+  padding: 40px;
+  background-color: whitesmoke;
+}
+
+.btn-rounded {
+  border-radius: 20px;
+  padding: 10px 20px;
+  /* background-color: #4285f4; */
+  background-color: rgb(52, 202, 52);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-rounded:hover {
+  background-color: #3367d6;
+}
+
+h1, h2, p, a {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* css for footer */
+footer {
+  /* background-color: #f8f8f8; */
+  padding: 30px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-section {
+  width: 20%;
+}
+
+.footer-section h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-section li {
+  margin-bottom: 5px;
+}
+
+.footer-section a {
+  color: #333;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
