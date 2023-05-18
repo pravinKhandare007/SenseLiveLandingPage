@@ -256,26 +256,6 @@ h1{
 
 /* below is slider css */
 
-/* #visual-slider{
-  position: absolute;
-  left: 50%;
-  height: 100%;
-  width: 5px;
-  background-color: #0ACF83;
-} */
-
-/* #arrow{
-  position: absolute;
-  height: 5%;
-  width: 5%;
-  background-color: #000000;
-  left: 47.5%;
-  top: 47.5%;
-}
-#arrow img{
-  width: 100%;
-  object-fit: cover;
-} */
 .container {
   position: relative;
   width: 900px;
@@ -312,13 +292,7 @@ h1{
   height: 50px;
   color: white;
 }
-/* #content-block-2 >button {
-  list-style-type: none;
-  border-radius: 50px;
-  background-color: var(--bg-btn-color);
-  width: 190px;
-  height: 50px;
-} */
+
 
 #content-block-3 {
   text-align: center;
@@ -522,84 +496,4 @@ h2 {
 .news-releases div h3 {
   margin: 0%;
 }
-
-/* about us page css */
-/* .column {
-  flex: 1;
-  padding: 20px;
-}
-
-.aboutus {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.column1 {
-  flex: 1;
-  padding: 10px;
-}
-
-.btn-rounded {
-  border-radius: 20px;
-  padding: 10px 20px;
-  background-color: #4285f4;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-}
-
-.btn-rounded:hover {
-  background-color: #3367d6;
-} */
-
-/* get started css */
-/* .container-2 {
-  display: flex;
-  flex-wrap: wrap;
-} */
-
-/* css for footer */
-/* footer {
-  background-color: #f8f8f8;
-  padding: 30px;
-}
-
-.footer-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.footer-section {
-  width: 20%;
-}
-
-.footer-section h3 {
-  font-size: 1.2rem;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-.footer-section ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.footer-section li {
-  margin-bottom: 5px;
-}
-
-.footer-section a {
-  color: #333;
-  text-decoration: none;
-}
-
-.footer-section a:hover {
-  text-decoration: underline;
-} */
-
-
 
