@@ -238,6 +238,72 @@ nav li a:hover {
   
 }
 
+/* css for slider functionality */
+
+#slider-section {
+  width: 100%;
+  height: 700px;
+  text-align: center;
+}
+
+/* this is for heading color */
+#slider-section h1{
+  color: #37BF6D;
+  text-align: center;
+}
+
+/* changing color of all h1  */
+h1{
+  color: #37BF6D;
+}
+
+/* below is slider css */
+
+/* #visual-slider{
+  position: absolute;
+  left: 50%;
+  height: 100%;
+  width: 5px;
+  background-color: #0ACF83;
+} */
+
+/* #arrow{
+  position: absolute;
+  height: 5%;
+  width: 5%;
+  background-color: #000000;
+  left: 47.5%;
+  top: 47.5%;
+}
+#arrow img{
+  width: 100%;
+  object-fit: cover;
+} */
+.container {
+  position: relative;
+  width: 900px;
+  height: 500px;
+  left: 22%;
+
+  .img {
+    position: absolute;
+    top: 0;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-size: 900px 100%;
+  }
+
+  .background-img {
+    background-image: url('./assets/afterfinal.png');
+  }
+
+  .foreground-img {
+    position: relative;
+    background-image: url('./assets/beforedinal2.png');
+    width: 50%;
+  }
+}
 
 #content-block-2-button{
   list-style-type: none;
@@ -461,7 +527,7 @@ h2 {
 }
 
 /* about us page css */
-.column {
+/* .column {
   flex: 1;
   padding: 20px;
 }
@@ -487,16 +553,16 @@ h2 {
 
 .btn-rounded:hover {
   background-color: #3367d6;
-}
+} */
 
 /* get started css */
-.container-2 {
+/* .container-2 {
   display: flex;
   flex-wrap: wrap;
-}
+} */
 
 /* css for footer */
-footer {
+/* footer {
   background-color: #f8f8f8;
   padding: 30px;
 }
@@ -536,72 +602,7 @@ footer {
 
 .footer-section a:hover {
   text-decoration: underline;
-}
-
-/* css for slider functionality */
-
-#slider-section {
-  width: 100%;
-  height: 700px;
-  text-align: center;
-}
-
-/* this is for heading color */
-#slider-section h1{
-  color: #37BF6D;
-  text-align: center;
-}
-
-/* changing color of all h1  */
-h1{
-  color: #37BF6D;
-}
-
-/* below is slider css */
-
-/* #visual-slider{
-  position: absolute;
-  left: 50%;
-  height: 100%;
-  width: 5px;
-  background-color: #0ACF83;
 } */
 
-/* #arrow{
-  position: absolute;
-  height: 5%;
-  width: 5%;
-  background-color: #000000;
-  left: 47.5%;
-  top: 47.5%;
-}
-#arrow img{
-  width: 100%;
-  object-fit: cover;
-} */
-.container {
-  position: relative;
-  width: 900px;
-  height: 500px;
-  left: 22%;
 
-  .img {
-    position: absolute;
-    top: 0;
-    left: 0%;
-    width: 100%;
-    height: 100%;
-    background-size: 900px 100%;
-  }
-
-  .background-img {
-    background-image: url('./assets/afterfinal.png');
-  }
-
-  .foreground-img {
-    position: relative;
-    background-image: url('./assets/beforedinal2.png');
-    width: 50%;
-  }
-}
 
