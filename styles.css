@@ -12,6 +12,7 @@
 button{
   background-color: #46AA44;
 }
+
 @font-face{
   font-family: "Roboto";
   font-weight: 400;
@@ -22,10 +23,6 @@ button{
 body {
   margin: auto;
   font-family: 'Roboto';
-}
-
-header {
-  background-color: #333;
 }
 
 .top-navbar {
@@ -42,21 +39,22 @@ header {
   margin-right: 20px;
 }
 
-.flexbox-container {
+#bottom-navbar-container{
   display: flex;
   justify-content: space-between;
   width: 100%;
   height: 100px;
   background-color: var(--nav-color);
 }
+
 .bottom-navbar{
   position: relative;;
 }
-.bottom-navbar>ul {
+.bottom-navbar > ul {
   margin-top: 42px;
 }
 
-.bottom-navbar>ul li {
+.bottom-navbar > ul li {
   padding-right: 20px;
   color: #000000;
 }
@@ -67,11 +65,10 @@ nav ul {
   padding: 0;
 }
 
-nav>li {
+nav > li {
   display: inline-block;
   margin-right: 10px;
   position: relative;
-
 }
 
 nav li {
