@@ -26,7 +26,7 @@ body {
 }
 
 .top-navbar {
-  background-color: #1DB17C;
+  background-color: #6ABE52;
   height: 50px;
 }
 
@@ -290,12 +290,12 @@ h1{
   }
 
   .background-img {
-    background-image: url('./assets/afterfinal.png');
+    background-image: url('./assets/after101.png');
   }
 
   .foreground-img {
     position: relative;
-    background-image: url('./assets/beforedinal2.png');
+    background-image: url('./assets/before101.png');
     width: 50%;
   }
 }
@@ -324,10 +324,13 @@ h1{
   text-align: center;
   padding-top: 20px;
   margin: 0px;
-  color: #37BF6D;
+  color: #3BB11E;
   font-size: x-large;
 }
 
+.item h3{
+  color: #3BB11E;
+}
 .grid-layout {
   position: absolute;
   display: grid;
