@@ -378,7 +378,7 @@ h1{
 #info-section div {
   display: inline-block;
   box-shadow: 0 0px 5px 5px rgb(201, 201, 201);
-  border-radius: 50px;
+  border-radius: 20px;
   /* background-color: rgb(235, 241, 240); */
   align-items: center;
   text-align: center;
